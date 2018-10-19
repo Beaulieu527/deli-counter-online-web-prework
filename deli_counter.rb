@@ -1,5 +1,7 @@
 require 'pry'
 
+$ticket = 1
+
 def take_a_number(katz_deli)
   #the katz deli array should be an array of ticket numbers, not names
   ticket = katz_deli.length + 1
