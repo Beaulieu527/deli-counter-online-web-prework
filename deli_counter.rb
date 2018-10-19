@@ -5,7 +5,7 @@ $ticket = 1
 def take_a_number(katz_deli)
   #the katz deli array should be an array of ticket numbers, not names
   #ticket = katz_deli.length + 1
-  katz_deli << $ticket
+  katz_deli << $ticket + 1
   puts "Welcome, you are ticket number #{$ticket} . You are number #{katz_deli.length} in line."
 end
 
