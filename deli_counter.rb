@@ -2,8 +2,9 @@ require 'pry'
 
 def take_a_number(katz_deli)
   #the katz deli array should be an array of ticket numbers, not names
-  katz_deli << name
-  puts "Welcome, you are ticket number . You are number #{katz_deli.length} in line."
+  ticket = katz_deli.length + 1
+  katz_deli << ticket
+  puts "Welcome, you are ticket number #{ticket} . You are number #{katz_deli.length} in line."
 end
 
 def now_serving(katz_deli)
