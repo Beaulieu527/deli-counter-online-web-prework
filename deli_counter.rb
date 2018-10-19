@@ -26,3 +26,6 @@ def line(katz_deli)
       puts "#{message}"
     end
   end
+
+line = []
+take_a_number(line, "Justin")
