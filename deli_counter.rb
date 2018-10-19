@@ -32,3 +32,4 @@ line = []
 take_a_number(line, "Justin")
 take_a_number(line, "Sally")
 now_serving(line)
+now_serving(line)
